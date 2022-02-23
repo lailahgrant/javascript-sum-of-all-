@@ -1,4 +1,4 @@
-function sumTo(n) {
+function sumToNumber(n) {
         
         let sum = 0;
           for (let i = 1; i <= n; i++) {
@@ -9,5 +9,5 @@ function sumTo(n) {
 
       function inp(){
         let num = document.getElementById("num").value;
-        document.getElementById("results").innerHTML="Input number is <b>"+num+"</b>: "+"Sum of all numbers till "+num+ " is <b>"+sumTo(num)+"</b>";
+        document.getElementById("results").innerHTML="Input number is <b>"+num+"</b>: "+"Sum of all numbers till "+num+ " is <b>"+sumToNumber(num)+"</b>";
       }
